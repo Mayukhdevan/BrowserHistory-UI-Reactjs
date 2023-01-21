@@ -1,0 +1,63 @@
+.list-item {
+  padding: 1rem;
+}
+.time-accessed-text {
+  color: #64748b;
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-title-url-container {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 2rem;
+}
+.domain-logo {
+  width: 28px;
+  margin-right: 1rem;
+}
+.title {
+  color: #475569;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.domain-url {
+  color: #64748b;
+  font-size: 1rem;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.delete-icon {
+  width: 22px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .content-wrapper {
+    flex-grow: 1;
+  }
+  .time-accessed-text {
+    margin: unset;
+    margin-right: 3rem;
+  }
+  .logo-title-url-container {
+    align-items: center;
+    flex-grow: 1;
+  }
+  .domain-texts {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+}
